@@ -1,0 +1,18 @@
+{
+	"autoload": {
+		"psr-4": {
+			"Fatec\\Livros\\": "src/"
+		}
+	},
+	"require": {
+		"doctrine/orm": "^2.12",
+		"symfony/cache": "^6.1",
+		"doctrine/annotations": "^1.13"
+	},
+	"scripts": {
+        "post-update-cmd": [
+            "rm -rf public/bootstrap",
+            "cp -R vendor/twbs/bootstrap/dist public/bootstrap"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+Instalar Composer no site com Windows Installer
+
+Na raíz do projeto:
+
+- composer update
+
+- composer install
+
+- vendor\bin\doctrine orm:generate-proxies
+
+- composer require doctrine/orm
+
+- composer require symfony/cache
+
+- composer require doctrine/annotations
+
+- php -S localhost:8080 -t public
